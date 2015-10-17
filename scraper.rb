@@ -6,7 +6,7 @@ require 'scraperwiki'
 require 'nokogiri'
 
 # retrieve a page
-starting_url = 'http://www.bbc.co.uk/iplayer/tv/categories/films'
+starting_url = 'http://www.bbc.co.uk/radio/programmes/genres/drama/al'
 html = ScraperWiki.scrape(starting_url)
 
 # use Nokogiri to get all <td> tags
